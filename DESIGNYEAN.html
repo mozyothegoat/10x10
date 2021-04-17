@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<title>텐바이텐 10x10 : DESIGNYEAN</title>
+<link href="icon.ico" rel="shortcut icon" type="image/x-icon">
+<meta charset="utf-8">
+<style>
+  @media(max-width:768px) {
+    #grid {
+      display:block;
+    }
+    ul {
+      border-right:none;
+    }
+  }
+  h1, body, ul {
+    margin:0;
+  }
+  h2, h3, img {
+    display:inline;
+  }
+  h1, h4 {
+    text-align: center;
+    color: white;
+  }
+  #front, h5 {
+    padding-left: 25px;
+}
+  #front, ul {
+  padding-top: 50px;
+}
+.a {
+  text-align: center;
+  padding-bottom: 50px;
+}
+  h3 {
+    font-size: 17px;
+  }
+  h4 {
+    background-color:rgb(255, 144, 144);
+    padding:70px;
+  }
+  h5 {
+    font-size:25px;
+    padding-bottom: 10px;
+    border-bottom:2px gray solid;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  a {
+    color:black;
+  }
+  ul {
+    border-right:5px rgb(255, 72, 72) solid;
+  }
+  h1 {
+    font-size:45px;
+    padding:50px;
+    background-color: rgb(255, 72, 72);
+  }
+  body {
+    font-size:20px;
+    font-family:"10X10";
+  }
+  #grid {
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+    padding:0;
+  }
+</style>
+<script src="colors.js"></script>
+</head>
+<body>
+<h1>10X10</h1>
+<div id="grid">
+<ul>
+  <script>
+  var group = ['DESIGNYEAN', 'POETEA', 'WORKERBEE'];
+  var i = 0;
+    while(i < group.length){
+      document.write('<li><a href="'+group[i]+'.html">'+group[i]+'</a></li>');
+      i++;
+    }
+  </script>
+</ul>
+<div>
+    <div id="front">
+      <h2>BRAND STREET </h2>
+      <h3><a href="텐바이텐.html">home</a> > DESIGNYEAN</h3>
+    </div>
+    <h4>DESIGNYEAN</h4>
+    <h5>Shop</h5>
+<div class="a">
+  <a href="http://www.10x10.co.kr/shopping/category_prd.asp?itemid=2671640&disp=104108105&pBtr=rdyoun" target="_blank"><img src="칭찬.jpg"></a>
+
+  <a href="http://www.10x10.co.kr/shopping/category_prd.asp?itemid=2648590&disp=104108105&pBtr=rdyoun" target="_blank"><img src="여행.jpg"></a>
+  <a href="http://www.10x10.co.kr/shopping/category_prd.asp?itemid=2724571&disp=104108105&pBtr=rdyoun" target="_blank"><img src="데이.jpg"></a>
+</div>
+</div>
+<input type="button" value="어두운 테마" onclick="
+nd(this);
+">
+</body>
+</html>
